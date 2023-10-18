@@ -1,0 +1,28 @@
+.transformText::before {
+    position: absolute;
+    content: "Let's Talk";
+    font-size: 100px;
+    color: #f1f1f1;
+    left: -15%;
+    transform: rotate(270deg);
+    width: 50%;
+    line-height: 1;
+    margin: auto;
+    top: 0;
+    font-weight: bold;
+    z-index: -1;
+    bottom: 0;
+}
+
+@media (max-width: 1199px) {
+    .transformText::before {
+        font-size: 85px;
+        left: -8%;
+    }
+}
+
+@media (max-width: 991px) {
+    .transformText::before {
+        display: none;
+    }
+}

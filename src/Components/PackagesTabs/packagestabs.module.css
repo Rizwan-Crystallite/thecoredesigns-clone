@@ -1,0 +1,19 @@
+/* width */
+.listScrollBar::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.listScrollBar::-webkit-scrollbar-track {
+    background: #d8dfe6;
+}
+
+/* Handle */
+.listScrollBar::-webkit-scrollbar-thumb {
+    background: #172758;
+}
+
+/* Handle on hover */
+.listScrollBar::-webkit-scrollbar-thumb:hover {
+    background: #172758;
+}
