@@ -7,7 +7,7 @@ import CTA from "@/Components/CTA";
 // JSON
 import data from "@/JSON/websiteportfolios"
 
-const FilterTabs = () => {
+const WebsitePortfolioTabs = () => {
     const tabs = [
         { id: 0, industry: "all" },
         { id: 1, industry: "auto" },
@@ -91,4 +91,4 @@ const FilterTabs = () => {
     )
 }
 
-export default FilterTabs;
+export default WebsitePortfolioTabs;
